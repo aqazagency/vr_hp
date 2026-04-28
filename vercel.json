@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "name": "vercel-xhttp-relay",
+  "name": "simple-edge-fn",
   "rewrites": [
-    { "source": "/(.*)", "destination": "/api/index" }
+    { "source": "/(.*)", "destination": "/core/entry" }
   ],
   "trailingSlash": false
 }
